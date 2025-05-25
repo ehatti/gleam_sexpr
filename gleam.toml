@@ -1,0 +1,12 @@
+name = "sexpr"
+version = "0.1.0"
+
+description = "A s-expression parsing and printing library for Gleam"
+licences = ["BSD-3.0"]
+repository = { type = "github", user = "ehatti", repo = "gleam_sexpr" }
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
